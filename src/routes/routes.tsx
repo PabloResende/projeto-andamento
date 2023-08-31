@@ -15,6 +15,7 @@ import { ResizingSituation } from '../screens/resizingSituation';
 import { ListUser } from '../screens/listUser';
 import { ListClients } from '../screens/listClients';
 import { Profile } from '../screens/profile';
+import React from 'react';
 
 const AppRoutes: React.FC = () => {
   return (
