@@ -38,13 +38,13 @@ export function Home() {
               Sistema de Planejamento, Orçamento e Gestão tem a finalidade de
               virtualizar todo o processo e etapas de elaboração de processos de
               Alvará de Construção, Regularização, Acréscimo de Área,
-              Desmembramento, Remembramento e Redimensionamento.
+              Desmembramento, Remembramento e Redimensionamento
             </p>
           </section>
-          <section className="modelo_png">
+          <section className="modelo_png ">
             <div className="bloco">
               <div className="circulo">
-                <img src={logoModel} alt="mulher modelo" />
+                <img src={logoModel} alt="mulher modelo"/>
               </div>
             </div>
           </section>
