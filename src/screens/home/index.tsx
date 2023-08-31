@@ -31,7 +31,7 @@ export function Home() {
         <div className="conteudo relative right-12 space-x-0">
           <section className="paragrafo">
             <h1>
-              LEM <br /> URBANISMO
+            URBANISMO <br />
             </h1>
             <div className="linha"></div>
             <p>
@@ -67,7 +67,7 @@ export function Home() {
       <footer id="rodape">
         <div>
           <p>
-            © {new Date().getFullYear()} VALLE TEC LAB todos os direitos
+            © {new Date().getFullYear()} Pablo Silva todos os direitos
             reservados.
           </p>
         </div>
