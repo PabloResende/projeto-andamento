@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from '../screens/home';
-import Login  from '../screens/login'
+import Login  from '../screens/login/'
 import  Register  from '../screens/register'
 import { Principal } from '../screens/principal'
 import AlvaraConstrucao from '../screens/alvaraConstrucao'
@@ -15,7 +15,6 @@ import { ResizingSituation } from '../screens/resizingSituation';
 import { ListUser } from '../screens/listUser';
 import { ListClients } from '../screens/listClients';
 import { Profile } from '../screens/profile';
-import React from 'react';
 
 const AppRoutes: React.FC = () => {
   return (
