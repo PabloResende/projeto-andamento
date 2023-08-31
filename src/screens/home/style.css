@@ -208,8 +208,8 @@ main {
 }
 
 .bloco {
-  width: 400px;
-  height: 250px;
+  width: 550px;
+  height: 400px;
   padding: 100px 120px;
   border-radius: 50px 0px 50px 50px;
   background: linear-gradient(to right, rgba(121, 167, 241, 0.8), rgba(40, 175, 40, 0.8));

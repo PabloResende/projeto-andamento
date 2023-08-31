@@ -12,12 +12,12 @@ export function Home() {
     <div>
       <header>
         <nav id="navbar">
-          <div className="logo">
+          <div className="logo relative left-4">
             <img src={logoWide} alt="lem urbanismo" />
           </div>
 
           <Link to="../Login" style={{ textDecoration: "none" }}>
-            <div id="login">
+            <div id="login" className="left-10">
               <div className="bg-white p-2 rounded-full">
                 <FaUser size={25} color="3a28a" />
               </div>
@@ -28,7 +28,7 @@ export function Home() {
       </header>
 
       <main>
-        <div className="conteudo">
+        <div className="conteudo relative right-12 space-x-0">
           <section className="paragrafo">
             <h1>
               LEM <br /> URBANISMO
