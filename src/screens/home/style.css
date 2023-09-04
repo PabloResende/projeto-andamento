@@ -230,7 +230,109 @@ main {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
+
+  .logo img {
+    margin-top: 0px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    object-fit: contain;
+    position: relative;
+    top: -20px;
+  }
+
+  #login {
+    margin-top: 0px;
+    align-self: flex-end;
+  }
+
+  .paragrafo {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    margin-left: 80px;
+  }
+
+  .paragrafo h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .linha {
+    margin: 20px 0 20px 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .paragrafo p {
+    margin: 0;
+    width: auto;
+  }
+
+  .modelo_png img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 95px;
+    left: 7px;
+    border-bottom-right-radius: 48%;
+    border-bottom-left-radius: 44%;
+    object-fit: contain;
+  }
+
+  .modelo_png {
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+    object-fit: contain;
+  }
+
+  .circulo {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    top: -60px;
+    object-fit: contain;
+  }
+
+  .bloco {
+    padding: 60px;
+    border-radius: 50px;
+    margin-left: 60px;
+  }
+
+  section .prefeitura {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    flex-direction: column;
+    position: relative;
+    left: 130px;
+    bottom: 20px;
+  }
+
+  section .prefeitura img{
+    position: relative;
+    right: 340px;
+    top: 115px;
+  }
+
+  .quadrado {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 868px) {
   .conteudo {
     flex-direction: column;
     justify-content: center;
@@ -281,23 +383,24 @@ main {
   }
 
   .modelo_png img {
-    width: 400px;
-    height: 420px;
+    width: 450px;
+    height: 450px;
     position: relative;
-    top: 130px;
+    top: 95px;
     left: 7px;
-    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 48%;
     border-bottom-left-radius: 44%;
   }
 
   .modelo_png {
     width: 400px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 90px;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
+    object-fit: contain;
   }
 
   .circulo {
@@ -305,12 +408,12 @@ main {
     height: 350px;
     margin: 20px auto;
     position: relative;
-    top: -10px;
+    top: -40px;
     object-fit: contain;
   }
 
   .bloco {
-    padding: 60px;
+    padding: 100px;
     border-radius: 50px;
     margin-left: 60px;
   }
@@ -342,12 +445,36 @@ main {
     margin-bottom: 200px;
   }
 
+  .modelo_png img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    position: absolute;
+    top: 145px;
+  }
+
+  .circulo {
+    position: relative;
+    top: -50px;
+    left: 70px;
+  }
+
+  .bloco {
+    width: 100%;
+  }
+
   section .prefeitura {
     position: relative;
-    left: 60px;
+    left: 50px;
   }
 
   .prefeitura img{
     display: none;
   }
+
+  #login {
+    position: relative;
+    left: 10px;
+  }
+
 }
