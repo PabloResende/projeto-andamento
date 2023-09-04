@@ -208,7 +208,7 @@ main {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 150px;
+  width: 300px;
   height: 78px;
   background: linear-gradient(
     to right,
@@ -238,6 +238,16 @@ main {
     align-items: center;
     width: 90%;
     height: auto;
+  }
+
+  .logo img {
+    margin-top: 0px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    object-fit: contain;
+    position: relative;
+    top: -20px;
   }
 
   #login {
@@ -287,7 +297,7 @@ main {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
   }
 
   .circulo {
@@ -310,5 +320,34 @@ main {
     height: auto;
     margin: 0px;
     flex-direction: column;
+    position: relative;
+    left: 130px;
+    bottom: 20px;
+  }
+
+  section .prefeitura img{
+    position: relative;
+    right: 340px;
+    top: 115px;
+  }
+
+  .quadrado {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .modelo_png {
+    margin-bottom: 200px;
+  }
+
+  section .prefeitura {
+    position: relative;
+    left: 60px;
+  }
+
+  .prefeitura img{
+    display: none;
   }
 }
