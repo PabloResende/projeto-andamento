@@ -183,7 +183,7 @@
   color: #707070;
 }
 
-@media screen and (max-width: 792px) {
+@media screen and (max-width: 810px) {
   .line-with-name {
     display: none;
   }
@@ -191,7 +191,18 @@
     position: relative;
     right: 60px;
   }
+
+  .logoRegister {
+    width: 200px;
+  }
+
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 500px) {
+.logoRegister {
+  width: 150px;
+  position: relative;
+  left: 130px;
+  margin-bottom: 50px;
+}
 }
