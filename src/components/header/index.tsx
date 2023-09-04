@@ -21,7 +21,12 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <header className="h-16 fixed top-0 left-0 right-0 bg-blue-600 flex items-center justify-between px-6 z-10">
       <NavLink to="/principal">
-        <img className='relative w-25 h-20 sm:w-40 sm:h-40 object-contain invert brightness-0 right-5' src={logoWide} alt="logoWide"
+        <img
+          className='relative w-25 h-20 sm:w-40 sm:h-40 object-contain invert brightness-0 right-5'
+          src={logoWide}
+          alt="logoWide"
+          style={{
+          }}
         />
       </NavLink>
       <div
@@ -39,8 +44,8 @@ const Header: React.FC<HeaderProps> = () => {
             onMouseLeave={hideOptionsHandler}
           >
             <div>
-              <a className='text-blue-600 font-bold flex hover:text-blue-800'href="/profile">Perfil</a>
-              <a className='text-blue-600 font-bold flex hover:text-blue-800'href="#">Sair</a>
+              <a className='text-blue-600 font-bold flex hover:text-blue-800' href="/profile">Perfil</a>
+              <a className='text-blue-600 font-bold flex hover:text-blue-800' href="#">Sair</a>
             </div>
           </div>
         )}
