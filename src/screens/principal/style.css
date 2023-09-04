@@ -54,7 +54,6 @@ html {
 .selectedProtocol select {
   width: 400px;
 }
-
 .principalSearch button:hover {
   background-color: #4a9ef8;
 }
