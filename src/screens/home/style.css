@@ -218,7 +218,7 @@ main {
 }
 
 #rodape {
-  justify-content: center;
+  width: 100vmax;
   text-align: center;
   margin-top: 10px;
   padding: 5px;
@@ -232,7 +232,6 @@ main {
 
 
 @media screen and (max-width: 992px) {
-
   .logo img {
     margin-top: 0px;
     width: 250px;
@@ -320,7 +319,7 @@ main {
     bottom: 20px;
   }
 
-  section .prefeitura img{
+  section .prefeitura img {
     position: relative;
     right: 340px;
     top: 115px;
@@ -329,7 +328,6 @@ main {
   .quadrado {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 868px) {
@@ -428,7 +426,7 @@ main {
     bottom: 20px;
   }
 
-  section .prefeitura img{
+  section .prefeitura img {
     position: relative;
     right: 340px;
     top: 115px;
@@ -440,12 +438,11 @@ main {
 }
 
 @media screen and (max-width: 540px) {
-
   .modelo_png {
     margin-bottom: 200px;
   }
 
-  .modelo_png img{
+  .modelo_png img {
     width: 400px;
     height: 400px;
     object-fit: contain;
@@ -468,7 +465,7 @@ main {
     left: 50px;
   }
 
-  .prefeitura img{
+  .prefeitura img {
     display: none;
   }
 
@@ -476,5 +473,4 @@ main {
     position: relative;
     left: 10px;
   }
-
 }

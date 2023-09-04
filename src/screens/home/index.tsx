@@ -31,7 +31,7 @@ export function Home() {
         <div className="conteudo relative right-12 space-x-0">
           <section className="paragrafo">
             <h1>
-            URBANISMO <br />
+              URBANISMO <br />
             </h1>
             <div className="linha"></div>
             <p>
@@ -44,7 +44,7 @@ export function Home() {
           <section className="modelo_png ">
             <div className="bloco">
               <div className="circulo">
-                <img src={logoModel} alt="mulher modelo"/>
+                <img src={logoModel} alt="mulher modelo" />
               </div>
             </div>
           </section>
