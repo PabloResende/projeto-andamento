@@ -14,7 +14,6 @@
   position: relative;
 }
 
-
 .form-group-register {
   flex: 1;
   padding: 20px;
@@ -105,12 +104,6 @@
   color: #000;
 }
 
-.greenLineRegister {
-  width: 100%;
-  max-width: 800px;
-  border: 1px solid rgb(122, 224, 144);
-  margin-top: 20px;
-}
 
 .select-container {
   display: inline-block;
