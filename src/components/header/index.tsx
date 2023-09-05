@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaUser } from 'react-icons/fa';
+import { FaUser } from 'react-icons/fa'; 
 import logoWide from '../../assets/imgs/logoWide.png';
 
 interface HeaderProps {
