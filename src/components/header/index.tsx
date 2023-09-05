@@ -4,7 +4,7 @@ import { FaUser } from 'react-icons/fa';
 import logoWide from '../../assets/imgs/logoWide.png';
 
 interface HeaderProps {
-  title: string;
+  title: string; 
 }
 
 const Header: React.FC<HeaderProps> = () => {
