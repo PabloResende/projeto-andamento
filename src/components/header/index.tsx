@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = () => {
 
   const showOptionsHandler = () => {
     setShowOptions(true); 
-  };
+  }; 
 
   const hideOptionsHandler = () => {
     setShowOptions(false);
