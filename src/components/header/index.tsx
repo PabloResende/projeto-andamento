@@ -11,7 +11,7 @@ const Header: React.FC<HeaderProps> = () => {
   const [showOptions, setShowOptions] = useState(false);
 
   const showOptionsHandler = () => {
-    setShowOptions(true);
+    setShowOptions(true); 
   };
 
   const hideOptionsHandler = () => {
