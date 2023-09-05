@@ -5,7 +5,7 @@ import logoWide from '../../assets/imgs/logoWide.png';
 
 interface HeaderProps {
   title: string;
-}
+} 
 
 const Header: React.FC<HeaderProps> = () => {
   const [showOptions, setShowOptions] = useState(false);
