@@ -15,7 +15,7 @@ interface CadastroFormData {
   address: string;
   subdivision: string;
   block: string; 
-  lot: string;
+  lot: string; 
   number: string;
   purposeOfWork: string;
   landArea: string;
