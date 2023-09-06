@@ -1,0 +1,20 @@
+.RegistrationProcessButton {
+    padding: 15px 50px;
+    background: #3a86ff;
+    border: none;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .RegistrationProcessButton:hover,
+  .RegistrationProcessButton:active {
+    background: #0582bd;
+    color: #ece8e8;
+  }
+  
