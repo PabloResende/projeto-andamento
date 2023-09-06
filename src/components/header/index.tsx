@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = () => {
           >
             <div>
               <a className='text-blue-600 font-bold flex hover:text-blue-800' href="/profile">Perfil</a>
-              <a className='text-blue-600 font-bold flex hover:text-blue-800' href="#">Sair</a>
+              <a className='text-blue-600 font-bold flex hover:text-blue-800' href="/">Sair</a>
             </div>
           </div>
         )}
