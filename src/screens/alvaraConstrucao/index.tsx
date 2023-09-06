@@ -274,7 +274,7 @@ export const AlvaraConstrucao: React.FC = () => {
           </div>
           <NavLink to="#">
             <Button title="cadastrar" />
-          </NavLink>
+          </NavLink> 
         </div>
       </div>
     </form>
