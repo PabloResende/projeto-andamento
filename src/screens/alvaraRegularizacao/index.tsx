@@ -4,7 +4,8 @@ import Header from '../../components/header';
 import SideBar from "../../components/sideBar";
 import AddGroundFloorButton from "../../components/buttonGroundFloor"
 import AddOwnButton from "../../components/AddOwner";
-
+import Button from "../../components/buttonRegister";
+import { NavLink } from 'react-router-dom';
 
 
 interface CadastroFormData {
@@ -127,14 +128,14 @@ export const AlvaraRegularizacao: React.FC = () => {
               readOnly
             />
             <div className="addOwn">
-            <input
-              type="search"
-              placeholder="CPF/CNPJ"
-              name="cpfCnpj"
-              value={formData.cpfCnpj}
-              onChange={handleInputChange}
-            />
-            <AddOwnButton></AddOwnButton>
+              <input
+                type="search"
+                placeholder="CPF/CNPJ"
+                name="cpfCnpj"
+                value={formData.cpfCnpj}
+                onChange={handleInputChange}
+              />
+              <AddOwnButton></AddOwnButton>
             </div>
           </div>
         </div>
@@ -272,9 +273,9 @@ export const AlvaraRegularizacao: React.FC = () => {
             </label>
           </div>
         </div>
-        <button className="RegistrationProcessButton" type="submit">
-          Cadastrar processo
-        </button>
+        <NavLink to="#">
+          <Button title="cadastrar" />
+        </NavLink>
       </div>
     </form>
   );
