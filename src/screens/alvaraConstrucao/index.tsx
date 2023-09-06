@@ -128,14 +128,14 @@ export const AlvaraConstrucao: React.FC = () => {
               readOnly
             />
             <div className="addOwn">
-            <input
-              type="search"
-              placeholder="CPF/CNPJ"
-              name="cpfCnpj"
-              value={formData.cpfCnpj}
-              onChange={handleInputChange}
-            />
-            <AddOwnButton></AddOwnButton>
+              <input
+                type="search"
+                placeholder="CPF/CNPJ"
+                name="cpfCnpj"
+                value={formData.cpfCnpj}
+                onChange={handleInputChange}
+              />
+              <AddOwnButton></AddOwnButton>
             </div>
           </div>
         </div>
@@ -272,10 +272,10 @@ export const AlvaraConstrucao: React.FC = () => {
               <AdicionarPavimentoButton></AdicionarPavimentoButton>
             </label>
           </div>
+          <NavLink to="#">
+            <Button title="cadastrar" />
+          </NavLink>
         </div>
-      <NavLink to="#">
-      <Button title="cadastrar"/>
-      </NavLink>
       </div>
     </form>
   );
