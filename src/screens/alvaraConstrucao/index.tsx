@@ -14,7 +14,7 @@ interface CadastroFormData {
   creacau: string;
   address: string;
   subdivision: string;
-  block: string;
+  block: string; 
   lot: string;
   number: string;
   purposeOfWork: string;
