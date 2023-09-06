@@ -1,13 +1,15 @@
 import React from 'react';
+import './style.css'
 
 interface ButtonProps {
     title: string;
-    onClick: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ title, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ title }) => {
+    const handleClick = () => {};
+
     return (
-        <button onClick={onClick}>
+        <button onClick={handleClick} className='RegistrationProcessButton'>
             {title}
         </button>
     );
