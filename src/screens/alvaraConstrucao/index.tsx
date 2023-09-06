@@ -16,7 +16,7 @@ interface CadastroFormData {
   subdivision: string;
   block: string; 
   lot: string; 
-  number: string;
+  number: string; 
   purposeOfWork: string;
   landArea: string;
   landSituation: "Meio quadra" | "Esquina";
