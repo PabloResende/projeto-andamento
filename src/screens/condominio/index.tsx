@@ -4,6 +4,9 @@ import AddTechinical from "../../components/AddTechinical";
 import AddUnity from "../../components/AddUnity";
 import Header from '../../components/header'
 import SideBar from "../../components/sideBar";
+import Button from "../../components/buttonRegister";
+import { NavLink } from 'react-router-dom';
+
 
 interface CadastroFormData {
   name: string;
@@ -28,16 +31,16 @@ interface CadastroFormData {
   landArea: string;
   landSituation: "Meio quadra" | "Esquina";
   purposeWork:
-    | "residential"
-    | "residencialCondominium"
-    | "commercial"
-    | "mixed"
-    | "institutional"
-    | "shed"
-    | "industrial";
+  | "residential"
+  | "residencialCondominium"
+  | "commercial"
+  | "mixed"
+  | "institutional"
+  | "shed"
+  | "industrial";
 }
 
-const CadastroForm: React.FC= () => {
+const CadastroForm: React.FC = () => {
   const [formData, setFormData] = useState<CadastroFormData>({
     name: "",
     email: "",
@@ -117,10 +120,10 @@ const CadastroForm: React.FC= () => {
   return (
     <form>
       <div id="container">
-      <div>
-      <Header title=""/>
-      <SideBar></SideBar>
-      </div>
+        <div>
+          <Header title="" />
+          <SideBar></SideBar>
+        </div>
         <div className="ownerData">
           <span className="line-with-name">Dados do Proprietário</span>
           <div className="flex-container">
@@ -234,11 +237,11 @@ const CadastroForm: React.FC= () => {
           />
           <div className="addUnity">
             <AddUnity></AddUnity>
-        </div>
-        <button className="RegistrationProcessButton" type="submit">
-            Cadastrar processo
-          </button>
           </div>
+          <NavLink to="#">
+            <Button title="cadastrar" />
+          </NavLink>
+        </div>
       </div>
     </form>
   );
