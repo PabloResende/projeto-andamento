@@ -5,6 +5,7 @@ import SideBar from "../../components/sideBar";
 import AddGroundFloorButton from "../../components/buttonGroundFloor"
 import AddOwnButton from "../../components/AddOwner";
 import { NavLink } from 'react-router-dom';
+import Button from "../../components/buttonRegister";
 
 
 interface CadastroFormData {
@@ -272,9 +273,9 @@ export const AlvaraConstrucao: React.FC = () => {
             </label>
           </div>
         </div>
-        <button className="RegistrationProcessButton" type="submit">
-          Cadastrar processo
-        </button>
+      <NavLink to="#">
+      <Button title="button"/>
+      </NavLink>
       </div>
     </form>
   );
