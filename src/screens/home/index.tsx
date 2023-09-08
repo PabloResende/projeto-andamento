@@ -24,14 +24,14 @@ export function Home() {
               <span className="text-2xl">Login</span>
             </div>
           </Link>
-        </nav>
+        </nav> 
       </header>
  
       <main>  
         <div className="conteudo relative right-12 space-x-0">
           <section className="paragrafo">
             <h1>
-              URBANISMO <br /> 
+              URBANISMO <br />  
             </h1> 
             <div className="linha"></div>
             <p>
@@ -43,7 +43,7 @@ export function Home() {
           </section>
           <section className="modelo_png ">
             <div className="bloco">
-              <div className="circulo">
+              <div className="circulo"> 
                 <img src={logoModel} alt="mulher modelo" />
               </div>
             </div>
