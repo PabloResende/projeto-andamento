@@ -230,7 +230,6 @@ main {
   color: #fff;
 }
 
-
 @media screen and (max-width: 992px) {
   .logo img {
     margin-top: 0px;
@@ -435,9 +434,13 @@ main {
   .quadrado {
     display: none;
   }
+
+  #rodape p {
+    text-align: center;
+  }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 640px) {
   .modelo_png {
     margin-bottom: 200px;
   }
@@ -472,5 +475,9 @@ main {
   #login {
     position: relative;
     left: 10px;
+  }
+
+  #rodape p {
+    display: flex;
   }
 }
