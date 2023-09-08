@@ -31,7 +31,7 @@ export function Home() {
         <div className="conteudo relative right-12 space-x-0">
           <section className="paragrafo">
             <h1>
-              URBANISMO <br />
+              URBANISMO <br /> 
             </h1> 
             <div className="linha"></div>
             <p>
