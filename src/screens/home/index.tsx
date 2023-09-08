@@ -27,7 +27,7 @@ export function Home() {
         </nav>
       </header>
  
-      <main>
+      <main> 
         <div className="conteudo relative right-12 space-x-0">
           <section className="paragrafo">
             <h1>
