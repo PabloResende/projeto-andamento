@@ -32,7 +32,7 @@ export function Home() {
           <section className="paragrafo">
             <h1>
               URBANISMO <br />
-            </h1>
+            </h1> 
             <div className="linha"></div>
             <p>
               Sistema de Planejamento, Orçamento e Gestão tem a finalidade de
