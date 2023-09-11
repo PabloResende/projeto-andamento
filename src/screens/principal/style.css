@@ -108,4 +108,9 @@ html {
     position: relative;
     right: 25px;
   }
+  
+  .Search-result th{
+    flex-direction: row;
+    align-items: row;
+  }
 }
