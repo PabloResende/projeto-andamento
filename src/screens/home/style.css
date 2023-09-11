@@ -240,7 +240,7 @@ main {
     position: relative;
     top: -20px;
   }
-
+  
   #login {
     margin-top: 0px;
     align-self: flex-end;
@@ -258,6 +258,7 @@ main {
     margin: 0;
     width: auto;
     height: auto;
+    margin-right: 80px;
   }
 
   .linha {
@@ -292,7 +293,7 @@ main {
     margin-bottom: 100px;
     object-fit: contain;
   }
-
+  
   .circulo {
     width: 400px;
     height: 400px;
@@ -301,13 +302,13 @@ main {
     top: -60px;
     object-fit: contain;
   }
-
+  
   .bloco {
     padding: 60px;
     border-radius: 50px;
     margin-left: 60px;
   }
-
+  
   section .prefeitura {
     width: 100%;
     height: auto;
@@ -323,10 +324,14 @@ main {
     right: 340px;
     top: 115px;
   }
-
+  
   .quadrado {
     display: none;
   }
+  
+    .linha {
+      width: 400px;
+    }
 }
 
 @media screen and (max-width: 868px) {
