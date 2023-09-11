@@ -32,7 +32,6 @@ export const Principal: React.FC = () => {
     searchTerm: "",
   });
 
-
   const handleChange = (
     event: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>
   ) => {
