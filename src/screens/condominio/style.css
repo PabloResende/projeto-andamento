@@ -6,7 +6,7 @@
   margin-top: 100px;
   margin-left: 50px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, sans-serif;
 }
 
 select {
@@ -183,7 +183,6 @@ select {
   height: auto;
 }
 
-
 @media (max-width: 900px) {
   #container {
     display: flex;
@@ -210,4 +209,34 @@ select {
   width: 30%;
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .minAddressData {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 500px) {
+  .ownerData input,
+  .projectData input,
+  .addresData input,
+  .ownerData select,
+  .projectData select,
+  .addresData select,
+  .SelectTechinical select,
+  .propertyData select,
+  .addresData {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .minAddressData {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
 }
