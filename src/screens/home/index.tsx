@@ -67,7 +67,7 @@ export function Home() {
       <footer id="rodape">
         <div>
           <p>
-            © {new Date().getFullYear()} Pablo Silva todos os direitos
+            © {new Date().getFullYear()} Valle Tec todos os direitos
             reservados.
           </p>
         </div>
